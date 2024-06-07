@@ -1,6 +1,7 @@
 body {
   background-image: url("./images/grassBackground.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -8,19 +9,76 @@ h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 100px;
 }
-
+/* 
 #buttonWrapper {
   display: flex;
   justify-content: space-evenly;
-}
+} */
 
 .button {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 img {
   width: 200px;
+}
+
+#boomBtnWrap {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#clapBtnWrap {
+  position: absolute;
+  bottom: 25px;
+  left: 150px;
+}
+
+#hihatBtnWrap {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+
+#kickBtnWrap {
+  position: absolute;
+  bottom: -25px;
+  left: 400px;
+}
+
+#openhatBtnWrap {
+  position: absolute;
+  top: 250px;
+  left: 600px;
+}
+
+#rideBtnWrap {
+  position: absolute;
+  bottom: 25px;
+  right: 500px;
+}
+
+#snareBtnWrap {
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}
+
+#tinkBtnWrap {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+#tomBtnWrap {
+  position: absolute;
+  bottom: -25px;
+  right: 50px;
 }
